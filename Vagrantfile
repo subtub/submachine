@@ -10,20 +10,28 @@
 # This is our bootstrap shell script.
 ###
 $bootstrap = <<SCRIPT
-echo "--> bootstrap the vm"
+# Some functions we need
+function println() {
+  echo "[33m---> $1[0m"
+}
 
-echo "--> Update"
+println "bootstrap the vm"
+
+println "Update"
 apt-get update
 
-echo "--> Install Apache"
+println "Install Apache"
 apt-get install -y apache2
 rm -rf /var/www
 ln -fs /vagrant /var/www
 
-echo "--> Install NodeJS"
+println "Install NodeJS"
+echo "Y" | apt-get install python-software-properties python g++ make
+echo "ENTER" | add-apt-repository ppa:chris-lea/node.js
+apt-get update
 echo "Y" | apt-get install nodejs
 node --version
-echo "Y" | apt-get install npm
+npm --version
 SCRIPT
 
 
