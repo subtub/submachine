@@ -1,8 +1,26 @@
-# submachine
+# submachine ![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Alcubierre.png/330px-Alcubierre.png)
 
 
-This repository is used to package the ```submachine``` box.  
-The ```submachine``` is based on Ubuntu precise64 distro.
+## Content
+- [Introduction](#information)
+- [Getting Started](#getting-started)
+- [Release](release--package-a-box)
+
+
+## Information
+The ```submachine``` is intended for a variety of development environments.  
+Whether you use a static site builds from Jekyll or a Node.JS server  
+touches the ```submachine``` has all tools on board for these tasks to be solved.  
+  
+This repository is used to develop and package the ```submachine``` VM.  
+The ```submachine``` is based on Ubuntu [precise64](http://files.vagrantup.com/precise64.box).  
+
+**Installed software:**
+- Apache2
+- Node.JS and NPM
+- Jekyll
+- tree
+- htop
 
 
 ## Getting Started
