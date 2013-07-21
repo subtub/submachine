@@ -64,6 +64,14 @@ printLine
 apt-get install tree
 apt-get install htop
 printLine
+
+println "Customize Message of the Day"
+echo "\n###############################################################################\n
+###                                                                         ###\n
+### submachine v0.0.1                                                       ###\n
+###                                                                         ###\n
+###############################################################################\n" > /etc/motd.tail
+printLine
 SCRIPT
 
 
