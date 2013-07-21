@@ -61,3 +61,8 @@ ssh verbindung:
 zeige alle installierte vm's
 
     vagrant box list
+
+
+## Box verpacken
+
+    vagrant package submachine.box
