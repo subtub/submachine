@@ -1,51 +1,37 @@
-# vagrant
-
-ein paar stichpunkte für die nutzung von vagrant.  
+# submachine
 
 
-## Download vagrant / VM's
-
-Lade die vagrant software runter und installiere diese.  
-http://downloads.vagrantup.com/
-
-Eine menge VM's sind hier gelistet:  
-http://www.vagrantbox.es
-
-**Links**  
-http://net.tutsplus.com/tutorials/php/vagrant-what-why-and-how/
+This repository is used to package the ```submachine``` box.  
+The ```submachine``` is based on Ubuntu precise64 distro.
 
 
 ## Getting Started
-erstelle eine ```Vagrantfile```
 
-    vagrant init
+Clone this repository with git by running:
 
-starte die VM
+    git clone https://github.com/RtwoDtwo/submachine.git
+
+Navigate into the ```submachine``` repository:
+
+    cd submachine
+
+Boot it:
 
     vagrant up
 
-ssh verbindung
+Ssh connection:
 
     vagrant ssh
-    
-navigiere in den vagrant ordner
+
+Navigate to the synced folder. by default this is the ```/vagrant/``` directory.
 
     cd /vagrant/
-    
 
-
-## CLI / Cheat Sheet
-
-### up and running
-starte eine vm:
-
-    vagrant up
-
-shutdown vm:
+Shutdown the machine:
 
     vagrant halt
 
-restart:
+or restart:
 
     vagrant reload
 
@@ -53,16 +39,7 @@ verwerfen der letzten änderungen:
 
     vagrant destroy
 
-ssh verbindung:
 
-    vagrant ssh
-
-### utils
-zeige alle installierte vm's
-
-    vagrant box list
-
-
-## Box verpacken
+## Release / Package a box
 
     vagrant package submachine.box
