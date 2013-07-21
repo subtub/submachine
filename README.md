@@ -4,7 +4,7 @@
 ## Content
 - [Introduction](#information)
 - [Getting Started](#getting-started)
-- [Release](release--package-a-box)
+- [Release / Package a box](#release--package-a-box)
 
 
 ## Information
