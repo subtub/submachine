@@ -24,6 +24,14 @@ The ```submachine``` is based on Ubuntu [precise64](http://files.vagrantup.com/p
 
 ## Getting Started
 
+Download and install Vagrant:  
+        
+    [vagrantup.com](http://downloads.vagrantup.com/)
+    
+Download and install VirtualBox:
+
+    [virtualbox.org](https://www.virtualbox.org/wiki/Downloads)
+
 Clone this repository with git by running:
 
     git clone https://github.com/RtwoDtwo/submachine.git
