@@ -33,6 +33,10 @@ rm -rf /var/www
 ln -fs /vagrant /var/www
 printLine
 
+println "  Install git"
+echo "Y" | apt-get install git
+printLine
+
 println "  Install NodeJS"
 printLine
 echo "Y" | apt-get install python-software-properties python g++ make
