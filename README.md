@@ -23,11 +23,12 @@ The ```submachine``` is based on Ubuntu [precise64](http://files.vagrantup.com/p
 
 
 ## Getting Started
-
-Download and install [Vagrant](http://downloads.vagrantup.com/)      
+### Setup your Machine
+Download and install [Vagrant](http://downloads.vagrantup.com/)  
   
 Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)    
-  
+
+### Get the submachine  
 Clone this repository with git by running:
 
     git clone https://github.com/RtwoDtwo/submachine.git
@@ -36,6 +37,7 @@ Navigate into the ```submachine``` repository:
 
     cd submachine
 
+### Run, Test and Shutdown the VM
 Boot it:
 
     vagrant up
