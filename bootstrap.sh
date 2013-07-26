@@ -121,3 +121,16 @@ date:      $DATE
 --------------------------------------------------------------------------------
 " > /etc/motd.tail
 printLine
+
+
+###
+# Add some aliases
+###
+print "Customize bash aliases"
+echo "# submachine aliases
+
+# git stuff
+alias gits='git status'
+alias gitc='git commit -m "$@"'
+" >> /home/vagrant/.bash_aliases
+printLine
