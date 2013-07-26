@@ -129,8 +129,16 @@ printLine
 print "Customize bash aliases"
 echo "# submachine aliases
 
+# general stuff
+alias mkdircd='mkdir $@; cd $@'
+
 # git stuff
 alias gits='git status'
 alias gitc='git commit -m "$@"'
+alias gita='git add $@'
+alias gittouch='touch $@; git commit -m "Create new file named \"$@\""'
+alias addgitignore='touch .gitignore'
+alias addgitkeep='touch .gitkeep'
+
 " >> /home/vagrant/.bash_aliases
 printLine
