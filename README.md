@@ -1,4 +1,4 @@
-# submachine ![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Alcubierre.png/330px-Alcubierre.png)
+# submachine 
 
 
 ## Content
