@@ -67,4 +67,4 @@ Revert changes:
 
 ## Release / Package a box
 
-    vagrant package submachine.box
+    vagrant package --output submachine.box
