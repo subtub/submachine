@@ -53,7 +53,7 @@ printLine
 print "Install Development / Debugging Tools"
 apt-get install tree
 apt-get install htop
-apt-get install curl
+echo "Y" | apt-get install curl
 printLine
 
 
