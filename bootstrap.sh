@@ -80,7 +80,10 @@ printLine
 # https://github.com/creationix/nvm
 ###
 print "Install NVM - Node Version Manager"
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+git clone https://github.com/creationix/nvm.git /usr/bin/nvm
+source /usr/bin/nvm/nvm.sh
+sudo chmod 777 /usr/bin/nvm/
+echo "source /usr/bin/nvm/nvm.sh" >> /home/vagrant/.bashrc
 
 
 ###
