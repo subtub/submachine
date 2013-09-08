@@ -40,10 +40,20 @@ echo ""
 
 
 ###
-# This is our bootstrap shell script.
+# Update the distro
 ###
 print "Update"
 apt-get update
+printLine
+
+
+###
+# Install some tools we want to use
+###
+print "Install Development / Debugging Tools"
+apt-get install tree
+apt-get install htop
+apt-get install curl
 printLine
 
 
@@ -94,15 +104,6 @@ printLine
 ###
 print "Install jekyll"
 gem install jekyll
-printLine
-
-
-###
-#
-###
-print "Install Development / Debugging Tools"
-apt-get install tree
-apt-get install htop
 printLine
 
 
