@@ -76,6 +76,14 @@ printLine
 
 
 ###
+# Install NVM
+# https://github.com/creationix/nvm
+###
+print "Install NVM - Node Version Manager"
+curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+
+
+###
 # Install Node.JS
 ###
 print "Install Node.JS"
