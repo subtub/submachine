@@ -53,7 +53,7 @@ printLine
 print "Install Development / Debugging Tools"
 apt-get install tree
 apt-get install htop
-apt-get install curl
+echo "Y" | apt-get install curl
 printLine
 
 
@@ -80,7 +80,10 @@ printLine
 # https://github.com/creationix/nvm
 ###
 print "Install NVM - Node Version Manager"
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+git clone https://github.com/creationix/nvm.git /usr/bin/nvm
+source /usr/bin/nvm/nvm.sh
+sudo chmod 777 /usr/bin/nvm/
+echo "source /usr/bin/nvm/nvm.sh" >> /home/vagrant/.bashrc
 
 
 ###
@@ -127,6 +130,8 @@ submachine
 
 version:   $VERSION
 date:      $DATE
+
+https://github.com/subtub/submachine
 
 --------------------------------------------------------------------------------
 " > /etc/motd.tail
