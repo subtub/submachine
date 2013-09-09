@@ -131,6 +131,8 @@ submachine
 version:   $VERSION
 date:      $DATE
 
+https://github.com/subtub/submachine
+
 --------------------------------------------------------------------------------
 " > /etc/motd.tail
 printLine

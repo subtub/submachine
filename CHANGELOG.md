@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.2
+- Fixed curl install
+- Fixed nvm install
+- Added Makefile to package the box
+
 ## v0.1.1
 - Added curl
 - Added NVM, the Node Version Manager
