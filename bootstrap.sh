@@ -107,6 +107,7 @@ printLine
 print "Install NodeModules"
 apt-get install coffeescript
 npm install -g nodemon
+npm install -g grunt-cli
 printLine
 
 
