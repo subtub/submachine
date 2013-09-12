@@ -145,6 +145,7 @@ print "Customize bash aliases"
 echo "# submachine aliases
 
 # general stuff
+alias lsa='ls -a'
 alias mkdircd='mkdir $@; cd $@'
 
 # git stuff
