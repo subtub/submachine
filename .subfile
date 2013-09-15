@@ -1,0 +1,34 @@
+// subtool configuration file
+module.exports = { version: '0.0.1',
+
+  // Set GitHub User- and Project-Name.
+  github: {
+    username: 'subtub',
+    project: 'submachine'
+  },
+
+  // Settings for the README.md file.
+  readme: {
+    // Generate a Table of Content Markdown list.
+    toc: true,
+    content: [
+      { title: 'General Information',     file: '/docs/general_information.md' },
+      { title: 'Getting Started',         file: '/docs/getting_started.md' },
+      { title: 'Installed Software',      file: '/docs/installed_software.md' },
+      { title: 'Release / Package a box', file: '/docs/release.md' }
+    ]
+  },
+  
+  // Set the type of License we want to use. Choose between the following types:
+  // apache, freebsd, isc, mit, newbsd
+  license: 'mit',
+
+  // If true, generate a CONTRIBUTING.md file.
+  // contributing: true,
+  
+  // If true, 
+  // travis: {
+  //   language: 'node_js',
+  //   version: ['0.4', '0.6', '0.8', '0.10']
+  // }
+}
