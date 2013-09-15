@@ -1,3 +1,9 @@
+# General Files
 *.DS_Store
+
+# Vagrant Files
 .vagrant/
 *.box
+
+# Node.JS Files
+/node_modules
